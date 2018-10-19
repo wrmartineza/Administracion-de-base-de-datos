@@ -1,0 +1,75 @@
+<article>
+
+<h1>Tecnicas de seguridad</h1>
+
+<p>
+El mecanismo de seguridad de un SGBD3 debe incluir formas 
+de restringir el acceso al sistema como un todo. Ésto, se 
+denomina control de acceso y se pone en practicas creando 
+cuentas de usuarios y contraseñas para que es SGBD controle 
+el proceso de entrada al sistema.
+ <br />
+  <br />
+Otra técnica de seguridad es el cifrado de datos, que sirve para
+proteger datos confidenciales que se transmiten por satélite o 
+por algún otro tipo de red de comunicaciones. El cifrado 
+provee protección adicional a secciones confidenciales de una 
+base de datos. Los datos se codifican mediante algún 
+algoritmo ex profeso. Un usuario no autorizado que tenga 
+acceso a los datos codificados tendrá problemas para 
+descifrarlos, pero un usuario autorizado contará con 
+algoritmos (o claves) de codificación o descifrado para tal 
+efecto 
+<br />
+<br />
+	<h3>El administrador de la base de datos</h3>
+	 
+Es la autoridad central que controla un sistema de este tipo. El
+DBA4 tiene una cuenta privilegiada en el SGBD, a veces
+denominada cuenta del sistema, que confiere capacidades
+extraordinarias no disponibles para cuentas y usuarios
+ordinarios de la base de datos. El DBA ejecuta los siguientes
+tipos de acciones:
+<br />
+<br />
+• Creación de cuentas.
+<br />
+<br />
+• Concesión de privilegios.
+<br />
+<br />
+• Revocación de privilegios.
+<br />
+<br />
+• Asignación de niveles de seguridad.
+<br />
+<br />
+• Es el responsable de la seguridad global del sistema
+de base de datos.
+<br />
+<br />
+Una costumbre (mala costumbre) que tienen muchos
+administradores o usuarios es usar el acceso con root5 (superusuario
+o administrador) para todas las bases de datos, instalan
+un sitio usando el CMS WordPress, y como datos de acceso a
+la base de datos (para que WP use el servidor MariaDB y use
+su DB) le ponen el usuario de administración del servidor
+MariaDB6: root
+<br />
+<br />
+También, instalan cualquier otra aplicación web (un chat,
+paste, foro, etc) y hacen lo mismo, siempre usan el usuario
+root de MariaDB.
+<br />
+<br />
+Para conservar la seguridad en todos estos niveles para debe
+afianzar la seguridad de la base de datos. La debilidad de los
+niveles bajos de seguridad (físico o humano) permite burlar las
+medidas de seguridad estrictas de niveles superiores (base de
+datos). La seguridad dentro del sistema operativo se aplica en
+varios niveles, que van desde las contraseñas para el acceso al
+sistema hasta el aislamiento de los procesos concurrentes que
+se ejecutan en él. El sistema de archivos también proporciona
+algún nivel de protección.
+
+</p>
