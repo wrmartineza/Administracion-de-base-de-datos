@@ -1,0 +1,529 @@
+/*font-family: 'Libre Franklin', sans-serif;*/
+
+#contenidos{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+    
+/*etiquetas*/
+
+
+    
+body {
+    background-color: #ffffff;
+}
+h1{
+    margin-top: 35px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 145px;
+    color: #005883;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-left: 180px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #005883;
+    margin-top: 0px;
+}
+h3{
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #F0B429;
+}
+
+h4{
+    margin-top: 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: #005883;
+    margin-bottom: 5px;
+    
+}
+h5{
+    
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #005883;
+    margin-bottom: 5px;
+    
+}
+
+h6{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #F0B429;
+}
+header{
+    background-image: url(../img/UNAD1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px 145px;
+    width: 1250px;
+    height: 145px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+nav{
+    text-align: center;
+    width: 1300px;
+    height: 50px;
+    background-color: #F0B429;
+    border-radius: 5px;
+    border-bottom-right-radius: 0; 
+    margin-bottom: 0px;
+    display: block;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}    
+ 
+nav ul li{
+    z-index: 1 !important;
+    float: left;
+    list-style-type: none;
+    background-color: #F0B429;
+    /*border-radius: 5px;
+    box-shadow: 0 0 5px black inset;*/
+    width: inherit;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    }
+nav ul li ul li{
+    float: none;
+    position: relative;
+}
+article ul{
+    background-color: transparent;
+    padding: 0;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: block;
+
+    
+    
+}
+
+article ul li{
+    background-color: transparent;
+    font-size: 20px;
+    position: relative;
+    float: none;
+    margin: 1px;
+    padding: 0px;
+    list-style-type: circle;
+    color: black;
+    text-align: justify;
+    
+
+}
+ 
+li ul{
+       position: inherit;
+       display: none;
+       width: 230px;
+
+    }
+    
+    li ul a{
+        font-size: 20px;
+    }
+li:hover ul{
+        display: block;
+        
+    }
+
+section{
+    width: 1300px;
+    /*background-color: white;*/
+    height: auto;
+    /*float: left;*/
+}
+article{
+    width: 980px;
+    /*float: left;*/
+    margin-right: 30px;
+    margin-left: 10px;
+    z-index: 0;
+    position: relative;
+}
+aside{
+    float: right;
+    z-index:  -1 !important;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figure img{
+    width: 850px;
+    height: auto;
+}
+
+img{
+    
+    width: 250px;
+    height: auto;
+}
+hr{
+    z-index: -1;
+    background-color: #005883;
+    border-color: #F0B429;
+    left: 1000px;
+    width:4px;
+    height: 420px;
+    position: absolute;
+    margin: 0;
+}
+p{
+    z-index: 0;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+iframe{
+    margin-left: 267.5px;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    height: 70px;
+    background-color: #F0B429;
+    width: 1300px;
+    /*top: 2500px;*/
+}
+footer img{
+    margin: 0px;
+    height: 15px;
+    width: auto;
+    
+}
+/*clases*/
+/*.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}*/
+
+/*color de el texto en el menu desplegable*/
+/*----------------------------------------*/
+.menu:link{color: white; text-decoration:none}
+.menu:visited{color: white; text-decoration:none}    
+.menu:hover{ color: #005883;text-decoration:none}
+.menu:active{color: white; text-decoration:none}
+.menu:focus{color: white; text-decoration:none}
+
+.articulo:link{color: white; text-decoration:none; font-style: italic}
+.articulo:visited{color: white; text-decoration:none; font-style: italic}    
+.articulo:hover{ color: black;text-decoration:none; font-style: italic}
+.articulo:active{color: white; text-decoration:none; font-style: italic}
+.articulo:focus{color: white; text-decoration:none; font-style: italic}
+
+.foto{width: 350px; height: auto;}
+.texto{width: inherit; color:#005883; font-size: 25px;}
+/*seudo clases*/
+article ul:hover{
+    background-color: transparent; 
+}
+article ul li:hover{
+    background-color: transparent;
+    
+}
+li:hover{
+    background-color: #F0B429;
+    z-index: 1 !important;
+    
+/*font-family: 'Libre Franklin', sans-serif;*/
+
+#contenidos{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+    
+/*etiquetas*/
+
+
+    
+body {
+    background-color: #ffffff;
+}
+h1{
+    margin-top: 35px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 60px;
+    text-align: right;
+    margin-right: 145px;
+    color: #005883;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-left: 180px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #005883;
+    margin-top: 0px;
+}
+h3{
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #F0B429;
+}
+
+h4{
+    margin-top: 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: #005883;
+    margin-bottom: 5px;
+    
+}
+h5{
+    
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #005883;
+    margin-bottom: 5px;
+    
+}
+
+h6{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #F0B429;
+}
+header{
+    background-image: url(../img/UNAD1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px 145px;
+    width: 1250px;
+    height: 145px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+nav{
+    text-align: center;
+    width: 1300px;
+    height: 50px;
+    background-color: #F0B429;
+    border-radius: 5px;
+    border-bottom-right-radius: 0; 
+    margin-bottom: 0px;
+    display: block;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}    
+ 
+nav ul li{
+    z-index: 1 !important;
+    float: left;
+    list-style-type: none;
+    background-color: #F0B429;
+    /*border-radius: 5px;
+    box-shadow: 0 0 5px black inset;*/
+    width: inherit;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    }
+nav ul li ul li{
+    float: none;
+    position: relative;
+}
+article ul{
+    background-color: transparent;
+    padding: 0;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: block;
+
+    
+    
+}
+
+article ul li{
+    background-color: transparent;
+    font-size: 20px;
+    position: relative;
+    float: none;
+    margin: 1px;
+    padding: 0px;
+    list-style-type: circle;
+    color: black;
+    text-align: justify;
+    
+
+}
+ 
+li ul{
+       position: inherit;
+       display: none;
+       width: 230px;
+
+    }
+    
+    li ul a{
+        font-size: 20px;
+    }
+li:hover ul{
+        display: block;
+        
+    }
+
+section{
+    width: 1300px;
+    /*background-color: white;*/
+    height: auto;
+    /*float: left;*/
+}
+article{
+    width: 980px;
+    /*float: left;*/
+    margin-right: 30px;
+    margin-left: 10px;
+    z-index: 0;
+    position: relative;
+}
+aside{
+    float: right;
+    z-index:  -1 !important;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figure img{
+    width: 850px;
+    height: auto;
+}
+
+img{
+    
+    width: 250px;
+    height: auto;
+}
+hr{
+    z-index: -1;
+    background-color: #005883;
+    border-color: #F0B429;
+    left: 1000px;
+    width:4px;
+    height: 420px;
+    position: absolute;
+    margin: 0;
+}
+p{
+    z-index: 0;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+iframe{
+    margin-left: 267.5px;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    position: absolute;
+    height: 70px;
+    background-color: #F0B429;
+    width: 1300px;
+    /*top: 2500px;*/
+}
+footer img{
+    margin: 0px;
+    height: 15px;
+    width: auto;
+    
+}
+/*clases*/
+/*.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}*/
+
+/*color de el texto en el menu desplegable*/
+/*----------------------------------------*/
+.menu:link{color: white; text-decoration:none}
+.menu:visited{color: white; text-decoration:none}    
+.menu:hover{ color: #005883;text-decoration:none}
+.menu:active{color: white; text-decoration:none}
+.menu:focus{color: white; text-decoration:none}
+
+.articulo:link{color: white; text-decoration:none; font-style: italic}
+.articulo:visited{color: white; text-decoration:none; font-style: italic}    
+.articulo:hover{ color: black;text-decoration:none; font-style: italic}
+.articulo:active{color: white; text-decoration:none; font-style: italic}
+.articulo:focus{color: white; text-decoration:none; font-style: italic}
+
+.foto{width: 350px; height: auto;}
+.texto{width: inherit; color:#005883; font-size: 25px;}
+/*seudo clases*/
+article ul:hover{
+    background-color: transparent; 
+}
+article ul li:hover{
+    background-color: transparent;
+    
+}
+li:hover{
+    background-color: #F0B429;
+    z-index: 1 !important;
+    
+}
