@@ -1,35 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="es" class"no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>Administracion de base de datos</title>
+  <meta name='author' content='Wilfran martinez, W_lfran@hotmail.com'>
+  <meta name='description' content='sitio web con enfasis a la administracion de bese de datos'>
+  <meta name='keywords' content='UNAD, html, css, administracion , base de datos, web, diseño, sitio, OVI'>   
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+  <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+  <script src="js/jquery.js"></script>
+  <script src="js/prefixfree.js"></script>
+  <script src="js/modernizr.js"></script>
+
+<div id="contenidos">
+  <header>
+        <h1>Administracion de Base de Datos</h1>
+        <h2>GRUPO 301122_61</h2>
+    </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html" class="menu">Inicio</a></li>
+      <li><a class="menu">LECTURAS</a>
+        <ul>
+            <li><a href="Administración de base de datos.html" class="menu">Administracion Base de Datos (DBA)</a></li>
+            
+              <li><a href="Funciones de una DBA.html" class="menu">Funciones de una DBA</a></li>
+              <li><a href="Nuevas tecnologías y aplicaciones de los sistemas de bases de datos.html" class="menu">Nuevas Tecnologias y Aplicaciones de los Sistemas de Bases de Datos</a></li>
+               <li><a href="Tecnicas de seguridad.html" class="menu">Tecnicas de Seguridad</a></li>
+              <li><a href="Sistemas manejadores de base de datos.html" class="menu">Sistemas Manejadores de Base de Datos</a></li>
+            </ul>
+      </li>
+      <li><a class="menu">MULTIMEDIA</a>
+              <ul>
+                    <li><a href="Administración de Bases de Datos - Introducción Conceptos Fundamentales (I) - Andrés Muñoz.html" class="menu">ADMINISTRACION DE BASE DE DATOS-INTRODUCCION CONCEPTOS FUNDAMENTALES (I) ANDRES MUÑOZ</a></li>
+                    
+                     <li><a href="Funciones de Administrador de Bases de Datos" class="menu">FUNCIONES DE ADMINISTRACION DE BASE DE DATOS</a></li>
+                 
+              </ul>
+            </li>
+            <li><a class="menu">Actividades</a>
+              <ul>
+                    <li><a href="" class="menu"></a></li>
+                    <li><a href="" class="menu"></a></li>
+                    <li><a href="" class="menu"></a></li>
+                </ul>
+            </li>
+            <li><a class="menu">AUTORES</a>
+                 <ul>
+                    <li><a href="" class="menu"></a></li>
+                    <li><a href="" class="menu"></a></li>
+                    <li><a href="" class="menu"></a></li>             
+                </ul>
+            </li>
+
+    </ul>
+  </nav>
 <article>
 
-<h1>Tecnicas de seguridad</h1>
+<h2>Tecnicas de seguridad</h2>
 
 <p>
-El mecanismo de seguridad de un SGBD3 debe incluir formas 
-de restringir el acceso al sistema como un todo. Ésto, se 
-denomina control de acceso y se pone en practicas creando 
-cuentas de usuarios y contraseñas para que es SGBD controle 
+El mecanismo de seguridad de un SGBD3 debe incluir formas de restringir el acceso al sistema como un todo. Ésto, se denomina control de acceso y se pone en practicas creando cuentas de usuarios y contraseñas para que es SGBD controle 
 el proceso de entrada al sistema.
  <br />
   <br />
-Otra técnica de seguridad es el cifrado de datos, que sirve para
-proteger datos confidenciales que se transmiten por satélite o 
-por algún otro tipo de red de comunicaciones. El cifrado 
-provee protección adicional a secciones confidenciales de una 
-base de datos. Los datos se codifican mediante algún 
-algoritmo ex profeso. Un usuario no autorizado que tenga 
-acceso a los datos codificados tendrá problemas para 
-descifrarlos, pero un usuario autorizado contará con 
-algoritmos (o claves) de codificación o descifrado para tal 
-efecto 
+Otra técnica de seguridad es el cifrado de datos, que sirve para proteger datos confidenciales que se transmiten por satélite o por algún otro tipo de red de comunicaciones. El cifrado provee protección adicional a secciones confidenciales de una base de datos. Los datos se codifican mediante algún algoritmo ex profeso. Un usuario no autorizado que tenga acceso a los datos codificados tendrá problemas para algoritmos (o claves) de codificación o descifrado para tal efecto 
 <br />
 <br />
 	<h3>El administrador de la base de datos</h3>
 	 
-Es la autoridad central que controla un sistema de este tipo. El
-DBA4 tiene una cuenta privilegiada en el SGBD, a veces
-denominada cuenta del sistema, que confiere capacidades
-extraordinarias no disponibles para cuentas y usuarios
-ordinarios de la base de datos. El DBA ejecuta los siguientes
-tipos de acciones:
+Es la autoridad central que controla un sistema de este tipo. El DBA4 tiene una cuenta privilegiada en el SGBD, a veces
+denominada cuenta del sistema, que confiere capacidades extraordinarias no disponibles para cuentas y usuarios ordinarios de la base de datos. El DBA ejecuta los siguientes tipos de acciones:
 <br />
 <br />
 • Creación de cuentas.
@@ -48,28 +95,32 @@ tipos de acciones:
 de base de datos.
 <br />
 <br />
-Una costumbre (mala costumbre) que tienen muchos
-administradores o usuarios es usar el acceso con root5 (superusuario
-o administrador) para todas las bases de datos, instalan
-un sitio usando el CMS WordPress, y como datos de acceso a
-la base de datos (para que WP use el servidor MariaDB y use
-su DB) le ponen el usuario de administración del servidor
-MariaDB6: root
+Una costumbre (mala costumbre) que tienen muchos administradores o usuarios es usar el acceso con root5 (superusuario
+o administrador) para todas las bases de datos, instalan un sitio usando el CMS WordPress, y como datos de acceso a la base de datos (para que WP use el servidor MariaDB y use su DB) le ponen el usuario de administración del servidor MariaDB6: root
 <br />
-<br />
-También, instalan cualquier otra aplicación web (un chat,
-paste, foro, etc) y hacen lo mismo, siempre usan el usuario
-root de MariaDB.
-<br />
-<br />
-Para conservar la seguridad en todos estos niveles para debe
-afianzar la seguridad de la base de datos. La debilidad de los
-niveles bajos de seguridad (físico o humano) permite burlar las
-medidas de seguridad estrictas de niveles superiores (base de
-datos). La seguridad dentro del sistema operativo se aplica en
-varios niveles, que van desde las contraseñas para el acceso al
-sistema hasta el aislamiento de los procesos concurrentes que
-se ejecutan en él. El sistema de archivos también proporciona
-algún nivel de protección.
 
+También, instalan cualquier otra aplicación web (un chat,paste, foro, etc) y hacen lo mismo, siempre usan el usuario
+root de MariaDB.
+
+<br />
+Para conservar la seguridad en todos estos niveles para debe afianzar la seguridad de la base de datos. La debilidad de los
+niveles bajos de seguridad (físico o humano) permite burlar las medidas de seguridad estrictas de niveles superiores (base de
+datos). La seguridad dentro del sistema operativo se aplica en varios niveles, que van desde las contraseñas para el acceso al sistema hasta el aislamiento de los procesos concurrentes que se ejecutan en él. El sistema de archivos también proporciona algún nivel de protección.
+
+</article>
 </p>
+<footer>
+    <h4>
+    UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA | DISEÑO DE SITIOS WEB GRUPO_301122_3
+    <h4>
+        <h4>
+    VALLEDUPAR-CESAR-2018
+    <h4>
+    <h5>
+    VISITAS   <a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blogger"><img src="https://counter10.allfreecounter.com/private/contadorvisitasgratis.php?c=nmnw7kuu6yfwyqcbdr4xws5ja7fm8g3c" border="0" title="contador de visitas para blogger" alt="contador de visitas para blogger"></a>    
+    </h5>
+
+</footer>
+</div>
+</body
+</html>
