@@ -108,11 +108,12 @@ li ul{
        position: inherit;
        display: none;
        width: 230px;
-
+       
     }
     
     li ul a{
         font-size: 20px;
+            
     }
 li:hover ul{
         display: block;
@@ -135,7 +136,7 @@ aside{
     /*background-color: blue;*/
     width: 280px;
     float: left;
-    margin-left: 20px;
+    margin-left: 200px;
     /*height: 450px;*/
     padding-left: 19px;
     
