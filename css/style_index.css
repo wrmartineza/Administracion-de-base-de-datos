@@ -17,18 +17,19 @@ body {
 h1{
     margin-top: 35px;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 60px;
+    font-size: 58px;
     text-align: right;
-    margin-right: 145px;
+    margin-right: 105px;
     color: #005883;
     margin-bottom: 0px;
 }
 
 h2{
-    margin-left: 180px;
+    /*margin-left: 180px;*/
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
-    text-align: center;
+    text-align: right;
+    margin-right: 105px;
     color: #005883;
     margin-top: 15px;
 }
@@ -129,14 +130,14 @@ section{
     float: left;
 }
 article{
-    width: 700px;
+    width: 960px;
     float: left;
 }
 aside{
     /*background-color: blue;*/
     width: 280px;
     float: left;
-    margin-left: 200px;
+    margin-left: 20px;
     /*height: 450px;*/
     padding-left: 19px;
     
