@@ -33,7 +33,7 @@ h2{
     color: #005883;
     margin-top: 15px;
 }
-}
+
 h3{
     margin-top: 15px;
     font-family: 'Libre Franklin', sans-serif;
@@ -59,7 +59,6 @@ h5{
     font-size: 20px;
     color: #005883;
     margin-bottom: 5px;
-    
 }
 
 h6{
@@ -71,6 +70,8 @@ h6{
     text-align: left;
     color: #F0B429;
 }
+
+
 header{
     background-image: url(../html5-imagenes/UNAD1.png);
     background-position: left;
@@ -191,9 +192,10 @@ figure img{
 
 img{
     
-    width: 250px;
+    width: 450px;
     height: auto;
 }
+
 hr{
     z-index: -1;
     background-color: #005883;
@@ -298,6 +300,7 @@ h2{
     color: #005883;
     margin-top: 0px;
 }
+
 h3{
     margin-top: 15px;
     font-family: 'Libre Franklin', sans-serif;
@@ -336,7 +339,7 @@ h6{
     color: #F0B429;
 }
 header{
-    background-image: url(../img/UNAD1.png);
+    background-image: url(../html5-imagenes/UNAD1.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 200px 145px;
